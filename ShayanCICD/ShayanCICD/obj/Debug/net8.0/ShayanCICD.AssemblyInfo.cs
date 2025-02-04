@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShayanCICD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a55791d0997442fe0dae8f8921e8569314cb52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ce09695cea48a7d0e089c225f4414c7149c9f96")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShayanCICD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShayanCICD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
