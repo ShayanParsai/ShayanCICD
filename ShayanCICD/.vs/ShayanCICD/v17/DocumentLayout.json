@@ -1,12 +1,41 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ShayanCICD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3938C-E304-489E-8F34-23B098F2E30A}|ShayanCICD\\ShayanCICD.csproj|c:\\users\\admin\\source\\repos\\shayancicd\\shayancicd\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3938C-E304-489E-8F34-23B098F2E30A}|ShayanCICD\\ShayanCICD.csproj|solutionrelative:shayancicd\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ShayanCICD\\ShayanCICD\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "ShayanCICD\\Controllers\\CryptoController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ShayanCICD\\ShayanCICD\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "ShayanCICD\\Controllers\\CryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:19:34.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
