@@ -1,0 +1,6 @@
+@ShayanCICD_HostAddress = http://localhost:5255
+
+GET {{ShayanCICD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
