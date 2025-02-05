@@ -18,13 +18,16 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ShayanCICD/ShayanCICD/ShayanCICD.csproj
 
       - name: Build application
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ShayanCICD/ShayanCICD/ShayanCICD.csproj --configuration Release --no-restore
 
       - name: Publish application
-        run: dotnet publish -c Release -o ./publish
+        run: dotnet publish ShayanCICD/ShayanCICD/ShayanCICD.csproj -c Release -o ./publish
+
+      - name: Create deployment package (ZIP)
+        run: cd publish && zip -r ../deploy.zip .
 
       - name: Deploy to AWS Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v21
@@ -35,4 +38,4 @@ jobs:
           environment_name: ShayanCICD-env
           version_label: ${{ github.run_number }}
           region: eu-north-1
-          deployment_package: ./publish
+          deployment_package: deploy.zip
